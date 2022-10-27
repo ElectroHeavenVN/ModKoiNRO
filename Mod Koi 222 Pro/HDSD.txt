@@ -1,0 +1,44 @@
+Lệnh chat:
++> k_X: đổi sang khu X
++> cheat_X: chỉnh cheat X
++> cheatf_X: chỉnh cheat X/10 (ví dụ cheatf_17 =  cheat 1.7)
++> s_X: tốc độ di chuyển X
++> nrd_X_Y: auto vào ngọc rồng đen map X khu Y
+
+Phím tắt:
++> A: tự đánh
++> B: mở danh sách bạn bè
++> C: sử dụng capsule
++> D: đóng băng skill hiện tại
++> E: auto hồi sinh
++> F: sử dụng bông tai(tách hợp thể = đệ về nhà)
++> G: giao dịch
++> I: khóa mục tiêu khi có trong map
++> J: load map trái (trong nrd load đến đầu map)
++> K: load map giữa (trong nrd load đến giữa map - npc)
++> L: load map phải (trong nrd load đến cuối map)
++> M: mở bảng đổi khu
++> N: show Menu nhặt, trong ngọc rồng đen tự động bật/tắt nhanh
++> O: bật auto vào nrd nhanh theo map X và khu Y đã cài ở lệnh chat nrd_X_Y
++> P: kết nối đến auto manager
++> Q: nhặt item
++> T: dùng tdlt
++> X: Mở menu tiện ích (toàn bộ tính năng của tool ở đây)
++> S: chuyển mục tiêu giữa các boss
++> F1: mở hành trang
++> F2, Tab: đổi mục tiêu
++> 9: Mặc set đồ 1
++> 0: mặc set đồ 2
+
+Lưu ý:
+- Đối với người sử dụng QLTK thì nên giải nén và sau khi điền nik vào QLTK thì muốn đăng nhập nik nào thì click đúp chuột vào nik cần onl bên danh sách là được
+- Mọi tính năng của tool đều tập trung trong phím tắt X, ae bấm X để khám phá tính năng và sử dụng, phiên bản rất nhiều tính năng hay nhưng vận dụng sao là cách dùng của ae
+- Thích background của game là ảnh gì thì ném ảnh vào đó vào file background_image là được (định dạng .png), sẽ tự đổi ảnh mỗi 60 giây (size khuyến cáo 1024x600) 
+	-> yêu cầu phải giải nén file, không biết giải nén thì google search, còn không giải nén được thì bỏ qua tính năng này
+- Phải kết nối đến auto manager thì mới điều khiển được tab (nút P)
+- chỉnh text auto chat, auto ctg lần lượt trong file Data\\textchatpublic và Data\\textchatglobal
+- Sửa size trong file size.ini(X|Y|Z: X chiều ngang, Y chiều học, Z = 0 thì ko auto size, Z = 1 chỉnh size theo X Y)
+- Đã loại bỏ tính năng TDLT của game, ae muốn TDLT train quái thì dùng TDLT, sau đó bấm X -> vào auto train -> chọn quái để TDLT
+- Auto captcha (mua captcha tại captcha.com.vn) làm theo hướng dẫn trong video Link: https://www.youtube.com/watch?v=__782Y6jTiU&t=9s
+	=> làm theo video mà còn ko biết cách thì nghỉ dùng tính năng này vì mình sẽ ko hướng dẫn lại.
+	=> để màn hình to sẽ dễ bị check captcha sai, vì captcha trên web làm theo captcha java
