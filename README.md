@@ -1,2 +1,2 @@
-# ModKoi206
-Mod Kòi 206 mã nguồn mở
+# ModKoiNRO
+Mod Kòi NRO mã nguồn mở (v206)
