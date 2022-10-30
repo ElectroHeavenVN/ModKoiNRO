@@ -1248,7 +1248,7 @@ namespace Mod.DungPham.KoiOctiiu957
 			listFlagColor.Add(Color.blue);
 		}
 
-		public static void RefreshListCharsInMap()
+		public static void SortListCharsInMapByClan()
 		{
 			if (listCharsInMap.Count <= 2)
 				return;
@@ -1257,12 +1257,12 @@ namespace Mod.DungPham.KoiOctiiu957
 			{
 				Char @char = listCharsInMap[0];
 				list.Add(@char);
-				string nameWithoutClanTag = @char.GetNameWithoutClanTag();
+				string nameWithoutClanTag = @char.GetClanTag();
 				listCharsInMap.RemoveAt(0);
 				for (int i = 0; i < listCharsInMap.Count; i++)
 				{
 					Char char2 = listCharsInMap[i];
-					if (nameWithoutClanTag == char2.GetNameWithoutClanTag())
+					if (nameWithoutClanTag == char2.GetClanTag())
 					{
 						list.Add(char2);
 						listCharsInMap.RemoveAt(i);

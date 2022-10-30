@@ -6525,7 +6525,7 @@ public class Char : IMapObject
 		return "XD";
 	}
 
-	public string GetNameWithoutClanTag()
+	public string GetClanTag()
 	{
 		if (cName != null && !(cName == "") && cName.StartsWith("["))
 			return cName.Substring(0, cName.IndexOf("]") + 1);
